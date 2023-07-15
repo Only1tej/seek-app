@@ -1,10 +1,5 @@
 import { Link, useNavigate } from "react-router-dom"
-import Bg from '../layout/assets/Bg.png'
 import freeLogobig from '../layout/assets/freeLogobig.jpg'
-import message from '../layout/assets/message.png'
-import password from '../layout/assets/password.png'
-import { FiLock } from "react-icons/fi";
-import { AiOutlineMail } from "react-icons/ai"
 import { ChakraProvider, Card, Center, Box, Flex, Heading, Checkbox, Button, Image, VisuallyHidden, FormControl, FormLabel, FormErrorMessage, FormHelperText } from "@chakra-ui/react"
 import { Formik, Form, Field } from 'formik'
 import * as Yup from 'yup'

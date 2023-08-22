@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
+import SignUps from "./pages/SignUps";
 import Order from "./pages/user/Order";
 import PaymentMethods from "./pages/user/PaymentMethods";
 import EmailVerification from "./pages/EmailVerification";
@@ -28,7 +29,7 @@ function App() {
         <main className="container mx-auto px-3 pb-12">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="sign-up" element={<SignUp />} />
+            <Route path="sign-ups" element={<SignUps />} />
             <Route path="sign-in" element={<SignIn />} />
             <Route path="email-verification" element={<EmailVerification />} />
             <Route path="forgotpassword" element={<ForgotPassword />} />

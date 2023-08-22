@@ -8,7 +8,7 @@ function Home() {
         navigate('/sign-in')
     }
     const handleSignUp = () => {
-        navigate('/sign-up')
+        navigate('/sign-ups')
     }
     return (
         <>
